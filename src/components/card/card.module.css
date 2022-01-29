@@ -1,0 +1,36 @@
+.container {
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0 20px;
+}
+
+.container > p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1e1e20;
+  margin-bottom: 50px;
+}
+
+.content{
+    font-size: 23px;
+    font-weight: 600;
+    color: #252648;
+}
+
+.sign{
+    color: grey;
+}
+.dollor{
+    color: grey;
+    font-weight: bold;
+}
+.content > span{
+    font-weight: bold;
+    color: #2b2c49;
+    margin-right: 8px;
+    font-size: 30px;
+}

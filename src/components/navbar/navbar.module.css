@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.title{
+    color: #1E1E20;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.coins{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e9ebf1;
+}
+
+.coins > select{
+    background-color: transparent;
+    border: none;
+    color: #1E1E20;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.scrolled{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+       display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}

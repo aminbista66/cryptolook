@@ -1,0 +1,31 @@
+
+.container{
+    overflow: hidden;
+    padding: 10px 80px;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.options{
+       padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.options > select{
+        background-color: transparent;
+    border: none;
+    color: #1E1E20;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}

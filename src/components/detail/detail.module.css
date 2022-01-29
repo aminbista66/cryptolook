@@ -1,0 +1,144 @@
+.mainContainer {
+  padding: 0 80px;
+  margin-top: 5px;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  /* background: black; */
+  position: absolute;
+  object-fit: cover;
+  top: 23px;
+  left: 30px;
+}
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.basic_info {
+  padding-top: 10px;
+  padding: 10px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+  position: relative;
+  color: #1e1e20;
+}
+.rank {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  margin-left: 10px;
+}
+.price {
+  margin-top: 5px;
+  color: #1e1e20;
+font-size: 40px;
+  font-weight: bold;
+}
+
+/* .green{
+    color: green;
+}
+
+.red{
+    color: red;
+} */
+
+.change {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  width: 150px;
+  height: 30px;
+  background: #fff;
+  display: block;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1E1E20;
+  padding-top: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+}
+.change>span{
+  margin-right: 10px;
+}
+.code {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.sparkline{
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 20px;
+    
+}
+
+.sparkline > p{
+  font-size: 17px;
+  font-weight: 600;
+  color: #1E1E20;
+  margin-bottom: 30px;
+}
+.supply{
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 20px;
+}
+
+.supply > p{
+  font-size: 17px;
+  font-weight: 600;
+  color: #1E1E20;
+  margin-bottom: 50px;
+}
+.content{
+      font-size: 23px;
+    font-weight: 600;
+    color: #252648;
+}
+.datecontainer{
+  display: flex;
+  position: relative;
+}
+.date{
+  font-size: 15px;
+  font-weight: normal;
+position: absolute;
+top: 20px;
+left: 250px;
+}
+
+.statscontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.p{
+  display: flex;
+  justify-content: space-between;
+}
