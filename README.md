@@ -1,1 +1,1 @@
-### All right reserved to the developer aminbista6666
+### All rights reserved to the developer aminbista6666
