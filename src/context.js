@@ -6,7 +6,6 @@ function AppProvider({children}) {
     const [selected, setSelected] = useState('');
     const [coinsData, setCoinsData] = useState({});
     const [isPos, setIsPos] = useState();
-    console.log(coinsData)
     useEffect(()=>{
         const options = {
         method: 'GET',

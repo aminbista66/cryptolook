@@ -14,7 +14,6 @@ const Navbar = ({options}) => {
     }
     return () => window.pageYOffset = null;
   }
-  console.log(isScrolled)
   function handleChange(e){
       setSelected(e.target.value);
     // console.log(e.target.value)

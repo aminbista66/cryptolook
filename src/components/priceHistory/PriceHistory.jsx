@@ -8,7 +8,6 @@ const PriceHistory = () => {
     const [timeData, setTimeData] = useState([]);
     const [period, setPeriod] = useState('3h');
     const {selected, coinsData} = useGlobalContext();
-    console.log(timeData)
     const series = [{
         name: 'series1',
         data: priceData
