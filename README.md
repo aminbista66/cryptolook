@@ -1,1 +1,1 @@
-[(Visit site at)https://cryptolook.netlify.app]
+[Visit site at](https://cryptolook.netlify.app)
